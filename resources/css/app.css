@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+  /* Make tab contents scrollable if too long */
+  .tab-content {
+    max-height: 730px; /* Adjust as needed */
+    overflow-y: auto;
+    padding-right: 8px; /* Optional: avoid scrollbar overlapping text */
+  }
+
+  /* Optional: style the scrollbar (for modern browsers) */
+  .tab-content::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .tab-content::-webkit-scrollbar-track {
+    background: #1f2937; /* dark background */
+    border-radius: 4px;
+  }
+
+  .tab-content::-webkit-scrollbar-thumb {
+    background-color: #4f46e5; /* blue scrollbar */
+    border-radius: 4px;
+  }
