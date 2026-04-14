@@ -101,7 +101,7 @@
     asLightboxImg.src = asImages[lbAsIndex];
   });
 
-  // THUMBNAIL CLICK (SAME LOGIC)
+  // Thumbnail click so it will not undefine
   document.querySelectorAll('#as-lightbox .flex.justify-center img').forEach(thumb => {
     thumb.addEventListener('click', e => {
       lbAsIndex = parseInt(e.target.dataset.index);

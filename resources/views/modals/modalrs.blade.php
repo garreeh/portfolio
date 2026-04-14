@@ -84,7 +84,7 @@
     reLightboxImg.src = reImages[lbReIndex];
   });
 
-  // Thumbnail click
+  // Thumbnail click so it will not undefine
   document.querySelectorAll('#re-lightbox .flex.justify-center img').forEach(thumb => {
     thumb.addEventListener('click', e => {
       lbReIndex = parseInt(e.target.dataset.index);

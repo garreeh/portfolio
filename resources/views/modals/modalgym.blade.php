@@ -84,7 +84,7 @@
   });
 
   // Thumbnail click
-  document.querySelectorAll('.flex.justify-center img').forEach(thumb => {
+  document.querySelectorAll('#lightbox .flex.justify-center img').forEach(thumb => {
     thumb.addEventListener('click', e => {
       lbIndex = parseInt(e.target.dataset.index);
       lightboxImg.src = gymImages[lbIndex];
