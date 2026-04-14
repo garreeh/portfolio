@@ -63,16 +63,14 @@
   <div class="bg-gray-800 rounded-xl shadow-lg overflow-hidden max-w-md mx-auto">
     <div class="relative">
       <div class="flex overflow-hidden" id="appointment-carousel">
-        <div class="flex overflow-hidden" id="appointment-carousel">
-          <img src="{{ asset('images/app/appointment1.png') }}" alt="App DB 1"
-            class="w-full h-32 object-cover flex-shrink-0 cursor-pointer" data-index="0">
+        <img src="{{ asset('images/app/appointment1.png') }}" alt="App DB 1"
+          class="w-full h-32 object-cover flex-shrink-0 cursor-pointer" data-index="0">
 
-          <img src="{{ asset('images/app/appointment2.png') }}" alt="App DB 2"
-            class="w-full h-32 object-cover flex-shrink-0 cursor-pointer" data-index="1">
+        <img src="{{ asset('images/app/appointment2.png') }}" alt="App DB 2"
+          class="w-full h-32 object-cover flex-shrink-0 cursor-pointer" data-index="1">
 
-          <img src="{{ asset('images/app/appointment3.jfif') }}" alt="App DB 3"
-            class="w-full h-32 object-cover flex-shrink-0 cursor-pointer" data-index="2">
-        </div>
+        <img src="{{ asset('images/app/appointment3.jfif') }}" alt="App DB 3"
+          class="w-full h-32 object-cover flex-shrink-0 cursor-pointer" data-index="2">
       </div>
       <button
         class="absolute left-2 top-1/2 -translate-y-1/2 bg-gray-700 hover:bg-gray-600 text-white p-2 rounded-full z-10 appointment-prev cursor-pointer">&lt;</button>
