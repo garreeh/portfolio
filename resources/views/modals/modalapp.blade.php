@@ -82,7 +82,7 @@
   });
 
   // CLOSE
-  reLbClose?.addEventListener('click', () => asLightbox.classList.add('hidden'));
+  asLbClose?.addEventListener('click', () => asLightbox.classList.add('hidden'));
 
   asLightbox.addEventListener('click', e => {
     if (e.target === asLightbox) {
