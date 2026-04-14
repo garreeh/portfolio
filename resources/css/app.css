@@ -12,7 +12,7 @@
 
   /* Make tab contents scrollable if too long */
   .tab-content {
-    max-height: 730px; /* Adjust as needed */
+    max-height: 715px; /* Adjust as needed */
     overflow-y: auto;
     padding-right: 8px; /* Optional: avoid scrollbar overlapping text */
   }
